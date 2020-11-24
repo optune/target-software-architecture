@@ -1,0 +1,16 @@
+.Collapsible__trigger {
+  width: 100%;
+  align-self: center;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+}
+
+.Collapsible {
+  margin: 8px;
+  border: 2px solid #ebebeb;
+  border-radius: 4px;
+  width: 80%;
+}
