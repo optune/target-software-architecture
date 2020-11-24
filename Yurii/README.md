@@ -1,3 +1,0 @@
-# Folder structure of Yurii 
-
-
