@@ -1,0 +1,31 @@
+type User {
+  firstName: String
+  lastName: String
+  email: String
+  profilePicture: String
+  existingRole: String
+  isDuplicateRole: Boolean
+  isSignupCompleted: Boolean
+  keyPerformanceIndicators: KeyPerformanceIndicators
+}
+
+type UserEmail {
+  exists: Boolean!   
+}
+
+input UserEmailInput {
+  email: String!  
+}
+
+input UserProfileInput {
+  firstName: String!
+  lastName: String!
+  email: String!
+  acceptedTerms: Boolean!
+}
+
+input UserDomainInput {
+  domainKey: String
+  presetKey: String
+  setDomain: Boolean
+}
