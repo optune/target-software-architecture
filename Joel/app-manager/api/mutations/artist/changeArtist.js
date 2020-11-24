@@ -6,8 +6,8 @@ import { checkUserRequest } from 'mutations-authorization'
 
 
 // @method Artist.update update fields of an existing artist
-export const updateArtist = new ValidatedMethod({
-  name: 'Artist.update',
+export const changeArtist = new ValidatedMethod({
+  name: 'Artist.changeArtist',
   // ...
 
   validate({ artistId, doc }) {
